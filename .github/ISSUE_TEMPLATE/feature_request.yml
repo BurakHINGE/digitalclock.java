@@ -1,0 +1,24 @@
+name: "🌟 Feature Request / Özellik Talebi"
+description: "Suggest a new feature or improvement / Yeni bir özellik veya geliştirme öner"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 💡 Describe the feature you'd like to see.  
+        ### 💡 Görmek istediğiniz özelliği açıklayın.
+  - type: input
+    id: title
+    attributes:
+      label: "Feature title / Özellik başlığı"
+      placeholder: "Example: Add 12/24 hour toggle / Örnek: 12/24 saat geçişi ekle"
+  - type: textarea
+    id: description
+    attributes:
+      label: "Feature description / Özellik açıklaması"
+      description: "Why is this feature needed? / Bu özellik neden gerekli?"
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "Possible implementation / Olası uygulama"
+      description: "How could it be implemented? / Nasıl uygulanabilir?"
