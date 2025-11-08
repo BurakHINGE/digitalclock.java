@@ -1,0 +1,35 @@
+name: "🐞 Bug Report / Hata Bildirimi"
+description: "Report a bug or unexpected behavior / Bir hata veya beklenmeyen davranışı bildir"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🐛 Please fill out the form below.  
+        ### 🐛 Lütfen aşağıdaki formu doldurun.
+  - type: input
+    id: summary
+    attributes:
+      label: "Short summary / Kısa açıklama"
+      placeholder: "Example: Clock stops updating after sleep / Örnek: Bilgisayar uyku modundan sonra saat güncellenmiyor"
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce / Yeniden üretme adımları"
+      placeholder: |
+        1. Run the app / Uygulamayı çalıştır
+        2. Put system to sleep / Sistemi uyku moduna al
+        3. Resume and observe / Uyandırıp gözlemle
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior / Beklenen davranış"
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual behavior / Gerçekleşen davranış"
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment / Ortam"
+      placeholder: "Java 17, VS Code, Windows 10"
