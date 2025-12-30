@@ -1,5 +1,5 @@
 
-public class saathesaplama {
+public class eng_digitalClock {
     public static void main(String[] args) {
 
         long millis = System.currentTimeMillis();
